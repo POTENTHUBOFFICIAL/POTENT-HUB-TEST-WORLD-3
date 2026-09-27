@@ -69,8 +69,8 @@ local SUPPORTED_PLACES = {
 	[104715542330896] = true, -- Juego 2 (maintenance)
 	[142823291]       = true, -- Juego 3 MM2
 	[77813828595591]  = true, -- Juego 4 Kitten Farm
-	[000]             = true, -- JUEGO 5 - PLACE ID 1 (cámbialo)
-	[001]             = true, -- JUEGO 5 - PLACE ID 2 (cámbialo)
+	[118941584817777] = true, -- +1 SPEED KEYBOARD SCAPE WORLD 2 
+	[93411036959889]  = true, -- +1 SPEED KEYBOARD SCAPE WORLD 3
 }
 
 local KEY_FILE = "potent_key.txt"
