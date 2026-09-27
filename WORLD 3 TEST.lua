@@ -9,7 +9,7 @@ end
 -- 2. Block Spin (104715542330896) [UNDER MAINTENANCE]
 -- 3. Murder Mystery 2 (142823291)
 -- 4. Kitten Farm (77813828595591)
--- 5. Speed Keyboard Escape (118941584817777 / 93411036959889) <- CAMBIA ESTOS
+-- 5. Speed Keyboard Escape (118941584817777 / 93411036959889)
 -- ============================================================
 
 -- Services.
@@ -61,16 +61,14 @@ local function customHttpPost(url, body, contentType)
 end
 
 -- Constants.
--- ⚠️ JUEGO 5: cambia los "000" y "001" por los 2 Place IDs reales.
--- Deben ser DIFERENTES entre sí.
 local SUPPORTED_PLACES = {
 	[114697347887839] = true, -- Juego 1
 	[72858062353423]  = true, -- Juego 1 alt
 	[104715542330896] = true, -- Juego 2 (maintenance)
 	[142823291]       = true, -- Juego 3 MM2
 	[77813828595591]  = true, -- Juego 4 Kitten Farm
-	[118941584817777] = true, -- +1 SPEED KEYBOARD SCAPE WORLD 2 
-	[93411036959889]  = true, -- +1 SPEED KEYBOARD SCAPE WORLD 3
+	[118941584817777] = true, -- JUEGO 5 - PLACE ID 1
+	[93411036959889]  = true, -- JUEGO 5 - PLACE ID 2
 }
 
 local KEY_FILE = "potent_key.txt"
@@ -3279,7 +3277,7 @@ local function launchGame()
 		runMM2()
 	elseif game.PlaceId == 77813828595591 then
 		runKittenFarm()
-	elseif game.PlaceId == 000 or game.PlaceId == 001 then
+	elseif game.PlaceId == 118941584817777 or game.PlaceId == 93411036959889 then
 		runSpeedKeyboardEscape()
 	end
 end
