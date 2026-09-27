@@ -9,7 +9,7 @@ end
 -- 2. Block Spin (104715542330896) [UNDER MAINTENANCE]
 -- 3. Murder Mystery 2 (142823291)
 -- 4. Kitten Farm (77813828595591)
--- 5. Speed Keyboard Escape (000 / 001) <- CAMBIA ESTOS
+-- 5. Speed Keyboard Escape (118941584817777 / 93411036959889) <- CAMBIA ESTOS
 -- ============================================================
 
 -- Services.
